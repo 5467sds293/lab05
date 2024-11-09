@@ -1,0 +1,13 @@
+def sum_of_squares(numbers):
+    """
+
+    :param numbers: Список чисел
+    :return: Сума квадратів
+    """
+    total = 0
+    for num in numbers:
+        total += num ** 2 
+    return total
+numbers_list = [1, 2, 3, 4, 5]
+result = sum_of_squares(numbers_list)
+print(f"Сума квадратів чисел у списку {numbers_list} дорівнює {result}.")
